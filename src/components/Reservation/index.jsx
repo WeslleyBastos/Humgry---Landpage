@@ -37,7 +37,6 @@ const Reservation = ({id}) => {
     const initialRef = React.useRef()
     const finalRef = React.useRef()
 
-
     return (
     <MainContainer id={id}>
         <img src={reservation} alt='meal' className='meal'/>

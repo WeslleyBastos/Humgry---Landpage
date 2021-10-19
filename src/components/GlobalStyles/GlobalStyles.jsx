@@ -23,13 +23,18 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Mulish', sans-serif;
     overflow-x: hidden;
   }
+
+  img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    vertical-align: middle;
+}
   h1 {
     font-family: 'Jomhuria', cursive;
     font-weight: bold;
   }
 
   h2, h3, p {
-    font-family: 'Halant', serif;
+    font-family: 'Halant';
     
   }
 

@@ -7,11 +7,13 @@ export const MainContainer = styled.div`
     width:100vw;
     height: 100vh;
     margin-bottom: 4%;
+    font-family: 'Halant';
         
         h2{
             font-size: 40px;
             font-weight: 600;
             padding: 3% 5%;
+            
     
         }
         p{
@@ -19,6 +21,7 @@ export const MainContainer = styled.div`
         padding: 0% 5%;
         margin-bottom: 5%;
         font-weight: bold;
+        
         }
     
     .BrainhubCarousel__arrows {
@@ -36,6 +39,7 @@ export const MainContainer = styled.div`
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 4%;
+        font-family: 'Halant';
 
         h2{
             font-size: 45px;
