@@ -26,7 +26,7 @@ const Reservation = ({id}) => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('Humgry_services', 'template_ramy8uq', e.target, 'user_lrAGlZfFaxuC1BSJ48m9m')
+      emailjs.sendForm('/*services*/', '/*template*/', e.target, '/*personal_IdUSER*/')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
